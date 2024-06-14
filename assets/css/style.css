@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-prop {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    color: #252B42;
+
+}
+
+.paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 35px;
+    width: 351px;
+    color: #737373;
+}
+
+.card {
+    width: 507px;
+    height: 246px;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+}
+
+.learn-more {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    align-items: center;
+    display: flex;
+    color: #FC724D;
+
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.card-svg1 {
+    width: 70px;
+    height: 76px;
+    padding: 22px 19px 22px 19px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #B6D7FF;
+
+}
+
+.cancer-care {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    width: 157px;
+    margin-top: 20px;
+    color: #252B42;
+
+}
+
+.card1 {
+    width: 237px;
+    height: 292px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
+
+}
+
+.card1-para {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    margin-top: 20px;
+    color: #737373;
+}
+
+.card2 {
+    width: 237px;
+    height: 292px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    margin-top: 24px;
+
+}
+
+.online-app {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    width: 157px;
+    margin-top: 20px;
+    color: #252B42;
+}
+
+.card2-para {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    margin-top: 20px;
+    color: #737373;
+}
+
+.card-svg2 {
+    width: 70px;
+    height: 76px;
+    padding: 22px 19px 22px 19px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #B6D7FF;
+}
+
+.card3 {
+    width: 237px;
+    height: 292px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    margin: 10px;
+}
+
+.book-now {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    width: 157px;
+    margin-top: 20px;
+    color: #252B42;
+}
+
+.card3-para {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    margin-top: 20px;
+    color: #737373;
+}
+
+.card-svg3 {
+    width: 70px;
+    height: 76px;
+    padding: 22px 19px 22px 19px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #B6D7FF;
+}
